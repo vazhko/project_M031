@@ -1072,6 +1072,9 @@
             <name>$PROJ_DIR$\Library\StdDriver\src\clk.c</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\Library\StdDriver\src\gpio.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\Library\StdDriver\src\retarget.c</name>
         </file>
         <file>
@@ -1087,7 +1090,16 @@
     <group>
         <name>Source Files</name>
         <file>
+            <name>$PROJ_DIR$\Driver.cpp</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Led.cpp</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\main.cpp</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\nuTimer.cpp</name>
         </file>
     </group>
 </project>

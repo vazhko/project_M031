@@ -1,5 +1,4 @@
 #include "nuTimer.h"
-#include "timer.h"
 #include "NuMicro.h"
 
 namespace Timer

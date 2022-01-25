@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include "NuMicro.h"
 #include "Led.h"
-#include "Timer.h"
+#include "nuTimer.h"
+#include "Driver.h"
 
 volatile int TestMode = 0;
 volatile int TestModePWM = 10;
@@ -41,11 +42,12 @@ void SYS_Init(void)
 int main(void)
 {
 	SYS_Init();
-        /*
+
 	Led::Init();
 	Led::Module();
 
 	Timer::Delay_ms( 100 );
+
 	Motor::Driver::Init();
 
 	switch (TestMode)
@@ -93,7 +95,7 @@ int main(void)
 			Timer::Delay_ms(100);
 			break;
 		}
-        */
+
 }
 
 
